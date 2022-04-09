@@ -10,7 +10,7 @@ This project is built to provide a daily planner for important events to employe
 
 ## Installation
 
-The code quiz is here: https://matthewestes33.github.io/homework-5/
+The daily planner is here: https://matthewestes33.github.io/homework-5/
 
 All elements of the project can be examined here: https://github.com/matthewestes33/homework-5
 
