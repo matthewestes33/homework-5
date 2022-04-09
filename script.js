@@ -55,11 +55,11 @@ $(document).ready(function () {
     function evolve() {
 
         $(".form-control").each(function () {
-            //parses id tags from html and returns appropriate integer value
+            // parses id tags from html and returns appropriate integer value
             var timeTest = parseInt($(this).attr("id"));
-            //parses time from momentJS and returns appropriate integer value
+            // parses time from momentJS and returns appropriate integer value
             hour = parseInt(hour);
-            //conditional statements that specify past, present, future when comparing html id tags and time from Moment JS
+            // conditional statements that specify past, present, future when comparing html id tags and time from Moment JS
             if (hour > timeTest) {
                 $(this).addClass("past");
             } else if (hour < timeTest) {
@@ -73,11 +73,11 @@ $(document).ready(function () {
 
     // event listener looking for specific user action
     $(".saveBtn").on("click", function () {
-        //defines where in html userInput will be drawn from
+        // defines where in html userInput will be drawn from
         userInput = $(this).siblings(".form-control").val().trim();
-        //defines what id tag will generate the value html hourSpan will be assigned
+        // defines what id tag will generate the value html hourSpan will be assigned
         hourSpan = $(this).siblings(".input-group-prepend").text().trim();
-        //creates local storage item, consisting of the appropriate timeblock and user's input
+        // creates local storage item, consisting of the appropriate timeblock and user's input
         localStorage.setItem(hourSpan, JSON.stringify(userInput));
     })
 
