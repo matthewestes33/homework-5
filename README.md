@@ -4,9 +4,9 @@
 
 This project is built to provide a daily planner for important events to employees with busy schedules so that they can manage their time effectively.
 
-## Mock-up (FIX)
+## Mock-up
 
-![Click the blue button to start the code quiz!.](./images/code-quiz.jpg)
+![Begin entering tasks to the work day scheduler!](./images/work-day-scheduler.jpg)
 
 ## Installation
 
@@ -14,14 +14,21 @@ The code quiz is here: https://matthewestes33.github.io/homework-5/
 
 All elements of the project can be examined here: https://github.com/matthewestes33/homework-5
 
-## Credits (FIX)
+## Credits
 
-Referenced tutorials from MDN Web Pages and W3Schools:
+Referenced tutorials:
 
 Bootstrap 4 Input Groups: https://www.w3schools.com/bootstrap4/bootstrap_forms_input_group.asp
 
+Bootstrap Form Inputs: https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp
 
+Grid System: https://getbootstrap.com/docs/4.0/layout/grid/
 
+.each(): https://api.jquery.com/each/
+
+jQuery.parseJSON(): https://api.jquery.com/jquery.parsejson/
+
+parseInt(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
 
 ## Features
 

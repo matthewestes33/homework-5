@@ -36,8 +36,8 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks for standard 8 to 5 business day ??how do I get button icons displaying properly??-->
-      <!-- Bootstrap requires div class of row -->
+      <!-- Timeblocks for standard 8 to 5 business day -->
+      <!-- div class of rows serve as wrappers for each column in bootstrap -->
       <div class="row">
         <!-- div class of input-group extends form controls to add text or buttons on either side of text inputs -->
         <div class="input-group">
@@ -46,8 +46,8 @@
             <!-- span element for short in-line text-->
             <span class="input-group-timeblock">08:00 am </span>
           </div>
-          <!-- ?? Decide if necessary ?? -->
-          <textarea class="form-control" aria-description="With textarea" id="8am"></textarea>
+          <!-- bootstrap supported form input area with id to reference in js, and bootstrap compliant column width specification-->
+          <textarea class="form-control col-10" id="8am"></textarea>
           <!-- button element enhanced with font awesome icon -->
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
@@ -58,7 +58,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">09:00 am </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="9am"></textarea>
+          <textarea class="form-control col-10" id="9am"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -68,7 +68,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">10:00 am </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="10am"></textarea>
+          <textarea class="form-control col-10" id="10am"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -78,7 +78,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">11:00 am </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="11am"></textarea>
+          <textarea class="form-control col-10" id="11am"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -88,7 +88,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">12:00 pm </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="12pm"></textarea>
+          <textarea class="form-control col-10" id="12pm"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -98,7 +98,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">01:00 pm </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="13pm"></textarea>
+          <textarea class="form-control col-10" id="13pm"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -108,7 +108,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">02:00 pm </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="14pm"></textarea>
+          <textarea class="form-control col-10" id="14pm"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -118,7 +118,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">03:00 pm </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="15pm"></textarea>
+          <textarea class="form-control col-10" id="15pm"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
@@ -128,7 +128,7 @@
           <div class="input-group-prepend">
             <span class="input-group-timespan">04:00 pm </span>
           </div>
-          <textarea class="form-control" aria-description="With textarea" id="16pm"></textarea>
+          <textarea class="form-control col-10" id="16pm"></textarea>
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
